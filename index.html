@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    $qu = prompt("Quantas peças estão no depósito?")
+    if($qu<50){
+        $est="Baixo"
+    }
+    else{
+        if($qu<100){
+        $est="Normal"
+    }
+    else{
+        $est="Alto"
+    }
+    }
+    document.write("<font color='blue' size='5'><center>")
+    document.write("<table border='1' width-='400'>")
+    document.write("<tr>")
+    document.write("<td width='150'> Quantidade </td>")
+    document.write("<td width='150'> Status Depósito</td>")
+    document.write("</tr>")
+    document.write("<table border='1' width-='400'>")
+    document.write("<tr>")
+    document.write("<td width='150'><font color='#836FFF' size='5'>", $qu, "</td>")
+    document.write("<td width='150'><font color='#836FFF' size='5'>", $est, "</td>")
+    document.write("</tr>")
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
